@@ -10,11 +10,21 @@
 <body>
     <header class="head-s">
         <div class="pic-nav">
-            <div class="pic">
+            <div class="l-st-pic">
                 
             </div>
             <div class="nav">
-
+                <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+                    <a href="javascript:void (0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+                        <i class="fa fa-remove"></i>
+                    </a>
+                    <div class= "w3-bar-block w3-center">
+                        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+                        <a href="#portfolio" class="w3-bar-item w3-button w3-text-arev w3-hover-black" onclick="closeNav()">Portfolio</a>
+                        <a href="#about" class="w3-bar-item w3-button w3-text-arev w3-hover-black" onclick="closeNav()">About</a>
+                        <a href="#contact" class="w3-bar-item w3-button w3-text-arev w3-hover-black" onclick="closeNav()">Contact</a>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -144,9 +154,76 @@
             <div>
                 <h2 class="h2-s">Contact Me</h2>
             </div>
+            <div class="contact">
+                <p>
+                    <i>
 
+                    </i>
+                    Chicago, US
+                </p>
+                <p>
+                    <i>
+
+                    </i>
+                    Phone: +00 151515
+                </p>
+                    <p>
+                        <i>
+
+                        </i>
+                        Email: mail@mail.com
+                    </p>
+            </div>
+            <img src="" alt="">
+            <p>
+
+            </p>
+            <form action="/action_page.php" target=" blank">
+                <p>
+                <input class="input-s border-i-s" type="text" placeholder="Name" required name="Name">
+                </p>
+                <p>
+                <input class="input-s border-i-s" type="text" placeholder="Email" required name="Email">
+                </p>
+                <p>
+                <input class="input-s border-i-s" type="text" placeholder="Subject" required name="Subject">
+                </p>
+                <p>
+                <input class="input-s border-i-s" type="text" placeholder="Message" required name="Message">
+                </p>
+                <p>
+                <button class="butto-r-s light-grey" type="submit">
+                    <i></i> 
+                    SEND MESSAGE
+                </button>
+                </p>
+            </form>
         </div>
-        
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+            
+            <i class="fa fa-facebook-officialw3-hover-opacity">
+            
+            </i>
+            <i class="fa fa-instagram w3-hover-opacity">
+            
+            </i>
+            <i class="fa fa-snapchat w3-hover-opacity">
+            
+            </i>
+            <i class="fa fa-pinterest-pw3-hover-opacity">
+            
+            </i>
+            <i class="fa fa-twitter w3-hover-opacity">
+            
+            </i>
+            <i class="fa fa-linkedin w3-hover-opacity">
+            
+            </i>
+            <p class="w3-medium">
+            "Powered by
+            <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3. css</a>
+            </p>
+        </footer>
 
     </section>
     
